@@ -1,3 +1,9 @@
 {
-  "users": 600
+  "users": 600,
+  "hosts": 600,
+  "accommodation": 644,
+  "bookings": 644,
+  "appReview": 644,
+  "accommodationReview": 644,
+  "blog": 644
 }
