@@ -1,32 +1,48 @@
 {
   "users": [
     {
-      "email": "user@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "email": "lata3@mail.com",
+      "password": "$2a$10$IzqDmQ3GuAXL8X2yeud6aexhw.Q3fhD7/D16IRF2zndphsb1RP5P6",
       "name": "user",
       "age": 38,
-      "userid": 1,
-      "profilePicture": "http:photo.com.br"
-    }
-  ],
-  "hosts": [
+      "profilePicture": "http:photo.com.br",
+      "perfil": "host",
+      "id": 1
+    },
     {
-      "email": "host@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "host",
+      "email": "lata2@mail.com",
+      "password": "$2a$10$t.QJFri4swu8DlqQ6NXkk.a4PkoayH88qAUYybyAYf6oV.6ZoVxZi",
+      "name": "user",
       "age": 38,
-      "hostId": 1
+      "profilePicture": "http:photo.com.br",
+      "perfil": "standard",
+      "id": 2
     }
   ],
   "accommodation": [
     {
-      "accommodationId": 1,
       "pictures": [],
       "name": "name",
       "value": 50,
-      "hostId": 1,
-      "location": ["Brasil", "Curitiba"],
-      "available": true
+      "location": [
+        "Brasil",
+        "Curitiba"
+      ],
+      "available": true,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "pictures": [],
+      "name": "tjolo",
+      "value": 50,
+      "location": [
+        "Brasil",
+        "Curitiba"
+      ],
+      "available": true,
+      "userId": 2,
+      "id": 2
     }
   ],
   "bookings": [
@@ -34,27 +50,65 @@
       "userId": 1,
       "accommodationId": 1,
       "checkin": "07/10/2021",
-      "checkout": "07/13/2021"
+      "checkout": "07/13/2021",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "accommodationId": 1,
+      "checkin": "07/10/2021",
+      "checkout": "07/13/2021",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "message": "O App é muito prático e rápido para usar",
+      "id": 4
     }
   ],
   "appReview": [
     {
       "userId": 1,
-      "message": "O App é muito prático e rápido para usar"
+      "message": "O App é muito prático e rápido para usar",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "message": " 5 O App é muito prático e rápido para usar",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "message": "O App é muito prático e rápido para usar",
+      "id": 4
     }
   ],
   "accommodationReview": [
     {
       "userId": 1,
       "idAccommodation": 1,
-      "review": 5
+      "review": 5,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "idAccommodation": 1,
+      "review": 2,
+      "id": 3
     }
   ],
   "blog": [
     {
       "userId": 1,
       "title": "Um post",
-      "message": "lorem,lorem,lorem"
+      "message": "lorem,lorem,lorem",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "title": "Um post",
+      "message": "lorem,lorem,lorem",
+      "id": 2
     }
   ]
 }
