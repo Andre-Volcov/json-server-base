@@ -1,33 +1,33 @@
 {
   "users": [
     {
-      "email": "lata@mail.com",
-      "name": "user",
+      "email": "um@mail.com",
+      "password": "$2a$10$/jn8Er0YyeC6ZEy4TNCFDOMxIvGj/ZPZKtIe1VKmjFoHZYulVneUC",
+      "name": "user1",
       "age": 38,
       "profilePicture": [
         "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
       ],
-      "password": "1234",
       "id": 1
     },
     {
       "email": "dois@mail.com",
-      "name": "user",
+      "password": "$2a$10$vP4YJMQB8OPdo15U7TuTk.q7zHXFVC634.zEnU6REELXkVAG1Q.2m",
+      "name": "user1",
       "age": 38,
       "profilePicture": [
         "https://github.githubassets.com/images/modules/site/social-cards/github-social.png"
       ],
-      "password": "1234",
       "id": 2
     },
     {
       "email": "tres@mail.com",
-      "name": "user",
+      "password": "$2a$10$MUxQeUirHIZ69PcuUKi2qefcnoff3r8DIOFqJpgN4KAZ4tX7vSIla",
+      "name": "user1",
       "age": 38,
       "profilePicture": [
         "data:image/png;base64,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"
       ],
-      "password": "1234",
       "id": 3
     }
   ],
