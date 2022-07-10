@@ -423,6 +423,7 @@
   "accommodationReview": [
     {
       "userId": 1,
+      "userName": "Antonio Nunes",
       "idAccommodation": 1,
       "review": 5,
       "comment": "muito boa a acomodação",
@@ -431,6 +432,7 @@
     },
     {
       "userId": 2,
+      "userName": "Serginho Groisman",
       "idAccommodation": 1,
       "review": 4,
       "userPicture": "https://github.githubassets.com/images/modules/site/social-cards/github-social.png",
