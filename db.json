@@ -33,6 +33,7 @@
   ],
   "accommodation": [
     {
+      "id": 1,
       "name": "Standard Apartment close to the city center",
       "avaliable": true,
       "imageUrl": [
@@ -66,6 +67,7 @@
     },
 
     {
+      "id": 2,
       "name": "Complete apartment to work",
       "avaliable": true,
       "imageUrl": [
@@ -104,6 +106,7 @@
     },
 
     {
+      "id": 3,
       "name": "Hotel room for HomeOfice",
       "avaliable": true,
       "imageUrl": [
@@ -137,6 +140,7 @@
     },
 
     {
+      "id": 4,
       "name": "House in the Woods",
       "avaliable": true,
       "imageUrl": [
@@ -174,6 +178,7 @@
     },
 
     {
+      "id": 5,
       "name": "Apartament to Work Remotely, nearby to the Beach",
       "avaliable": true,
       "imageUrl": [
@@ -210,6 +215,7 @@
     },
 
     {
+      "id": 6,
       "name": "Room in a house, perfect for home office",
       "avaliable": true,
       "imageUrl": [
@@ -238,6 +244,7 @@
     },
 
     {
+      "id": 7,
       "name": "Premium Place to work",
       "avaliable": true,
       "imageUrl": [
@@ -283,6 +290,7 @@
     },
 
     {
+      "id": 8,
       "name": "Simple but nice Place to work",
       "avaliable": true,
       "imageUrl": [
@@ -311,6 +319,7 @@
     },
 
     {
+      "id": 9,
       "name": "Complete Room to work",
       "avaliable": true,
       "imageUrl": [
@@ -347,6 +356,7 @@
     },
 
     {
+      "id": 10,
       "name": "Styled Room for HomeOffice",
       "avaliable": true,
       "imageUrl": [
@@ -381,6 +391,7 @@
     },
 
     {
+      "id": 11,
       "name": "Nice Room to home Office",
       "avaliable": true,
       "imageUrl": [
@@ -418,6 +429,7 @@
       "userId": 2
     },
     {
+      "id": 12,
       "name": "Compact Room, complete for Digital Nomades",
       "avaliable": true,
       "imageUrl": [
@@ -450,6 +462,7 @@
       "userId": 2
     },
     {
+      "id": 13,
       "name": "Elegant place, with silence and good internet",
       "avaliable": true,
       "imageUrl": [
@@ -485,6 +498,7 @@
       "userId": 2
     },
     {
+      "id": 14,
       "name": "Apartment with custom closets",
       "avaliable": true,
       "imageUrl": [
@@ -517,6 +531,7 @@
       "userId": 2
     },
     {
+      "id": 15,
       "name": "Homme Office in Salvador-BA",
       "avaliable": true,
       "imageUrl": [
@@ -552,6 +567,7 @@
       "userId": 2
     },
     {
+      "id": 16,
       "name": "Room to rent",
       "avaliable": true,
       "imageUrl": [
@@ -579,6 +595,7 @@
       "userId": 2
     },
     {
+      "id": 17,
       "name": "Winter rustic home office",
       "avaliable": true,
       "imageUrl": [
@@ -613,6 +630,7 @@
       "userId": 2
     },
     {
+      "id": 18,
       "name": "Room to Work Remotely",
       "avaliable": true,
       "imageUrl": [
@@ -648,6 +666,7 @@
       "userId": 2
     },
     {
+      "id": 19,
       "name": "Room to Work Remotely",
       "avaliable": true,
       "imageUrl": [
@@ -680,6 +699,7 @@
       "userId": 2
     },
     {
+      "id": 20,
       "name": "Room in Itaúnas",
       "avaliable": true,
       "imageUrl": [
