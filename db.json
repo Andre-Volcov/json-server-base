@@ -34,12 +34,16 @@
   "accommodation": [
     {
       "name": "Standard Apartment close to the city center",
-      "userId": 2,
       "avaliable": true,
       "imageUrl": [
         "https://veja.abril.com.br/wp-content/uploads/2017/07/apartamento-de-erika-glorigiano-administrado-pela-b-homy.jpg"
       ],
       "price": 340,
+      "specialOffer": {
+        "status": true,
+        "price": 325,
+        "date": "20.07 - 30.07"
+      },
       "location": {
         "streetAddress": "Espedito Ferreira, 80",
         "complement": "Ap 402",
@@ -58,14 +62,14 @@
         "highlights": ["Air conditioning", "Dryer", "Kitchen", "Coffee Machine"]
       },
       "description": "Quiet and great place to work, close to the city center",
-      "id": 1
+      "userId": 1
     },
+
     {
       "name": "Complete apartment to work",
-      "userId": 1,
       "avaliable": true,
       "imageUrl": [
-        "data:image/jpeg;base64,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"
+        "http://www.tiberio.com.br/blog/wp-content/uploads/2020/08/capa.jpg"
       ],
       "price": 494,
       "location": {
@@ -96,14 +100,14 @@
         ]
       },
       "description": "Ideal place for remote work, with comfort and efficiency in services",
-      "id": 2
+      "userId": 1
     },
+
     {
       "name": "Hotel room for HomeOfice",
-      "userId": 1,
       "avaliable": true,
       "imageUrl": [
-        "data:image/jpeg;base64,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"
+        "https://media-magazine.trivago.com/wp-content/uploads/2020/11/11103546/lugares-para-fazer-home-office-comfort-hotel-santos-suite.jpeg"
       ],
       "price": 194,
       "location": {
@@ -129,11 +133,11 @@
         ]
       },
       "description": "Great place to work with silince and peace for ours guests",
-      "id": 3
+      "userId": 1
     },
+
     {
       "name": "House in the Woods",
-      "userId": 2,
       "avaliable": true,
       "imageUrl": [
         "https://cdn.decoist.com/wp-content/uploads/2020/08/Charming-tropical-style-home-office-in-black-with-custom-wooden-decor-98299-870x520.jpg"
@@ -166,11 +170,11 @@
         ]
       },
       "description": "Come to work with silince, peace and a lot of nature, you will love it!",
-      "id": 4
+      "userId": 1
     },
+
     {
       "name": "Apartament to Work Remotely, nearby to the Beach",
-      "userId": 1,
       "avaliable": true,
       "imageUrl": [
         "https://images.adsttc.com/media/images/5966/45a8/b22e/38be/df00/04d0/newsletter/07_copy.jpg?1499874694"
@@ -202,11 +206,11 @@
         ]
       },
       "description": "Combining work and travel has never been so easy. We wait for you!",
-      "id": 5
+      "userId": 1
     },
+
     {
       "name": "Room in a house, perfect for home office",
-      "userId": 1,
       "avaliable": true,
       "imageUrl": [
         "https://cdn.leroymerlin.com.br/contents/home_office_colorido_7a3d_original.jpg"
@@ -230,16 +234,21 @@
         "highlights": ["Dryer", "Kitchen"]
       },
       "description": "Comfortable place, with fast internet and close to a very good bakery!",
-      "id": 6
+      "userId": 1
     },
+
     {
       "name": "Premium Place to work",
-      "userId": 2,
       "avaliable": true,
       "imageUrl": [
         "https://www.digsdigs.com/photos/2013/03/a-minimalist-and-refined-home-office-with-a-black-built-in-shelving-unit-a-sculptural-oval-desk-of-rich-stained-wood-a-bold-chandelier.jpg"
       ],
-      "price": 194,
+      "price": 494,
+      "specialOffer": {
+        "status": true,
+        "price": 450,
+        "date": "18.07 - 25.07"
+      },
       "location": {
         "streetAddress": "Cesar Menotti, 88",
         "complement": "Ap 305",
@@ -270,11 +279,11 @@
         ]
       },
       "description": "If you are traveling and need a place to serve your customers at the level they deserve, look for us.",
-      "id": 7
+      "userId": 1
     },
+
     {
       "name": "Simple but nice Place to work",
-      "userId": 1,
       "avaliable": true,
       "imageUrl": [
         "https://i.pinimg.com/736x/5b/72/44/5b72446b159ed715c1884da96e737ccc.jpg"
@@ -298,11 +307,11 @@
         "highlights": ["Dryer", "Kitchen"]
       },
       "description": "Come see us, we will be happy to have you  with us",
-      "id": 8
+      "userId": 1
     },
+
     {
       "name": "Complete Room to work",
-      "userId": 1,
       "avaliable": true,
       "imageUrl": [
         "https://www.gqportugal.pt/media/productive-work-from-home-office.jpg"
@@ -334,14 +343,14 @@
         ]
       },
       "description": "We offer greate space to work and colaborate with other people",
-      "id": 9
+      "userId": 1
     },
+
     {
       "name": "Styled Room for HomeOffice",
-      "userId": 1,
       "avaliable": true,
       "imageUrl": [
-        "https://www.gqportugal.pt/media/productive-work-from-home-office.jpg"
+        "https://i.shelterness.com/2020/07/a-chic-modern-pink-home-office-with-light-pink-walls-a-tall-mirror-a-comfy-desk-black-pendants-and-other-touches-for-chic.jpg"
       ],
       "price": 122,
       "location": {
@@ -368,7 +377,339 @@
         ]
       },
       "description": "The better place in Curitiba, come rigth now!",
-      "id": 10
+      "userId": 1
+    },
+
+    {
+      "name": "Nice Room to home Office",
+      "avaliable": true,
+      "imageUrl": [
+        "https://www.marabraz.com.br/blog/wp-content/uploads/2019/12/2-8-453x340.jpg"
+      ],
+      "price": 243,
+      "specialOffer": {
+        "status": true,
+        "price": 225,
+        "date": "15.07 - 14.08"
+      },
+      "location": {
+        "streetAddress": "Terezinha de Jesus, 543",
+        "complement": "nearby the school",
+        "city": "Teresina",
+        "country": "Brazil",
+        "state": "Piauí",
+        "zipCode": 64923000
+      },
+      "category": "Apartment",
+      "kindOfPlace": "A whole room",
+      "acomodation": {
+        "rooms": 1,
+        "guests": 1,
+        "bathrooms": 1,
+        "beds": 1,
+        "highlights": [
+          "  Internet > 100mb/s",
+          "Air conditioning",
+          "Monitor Full HD",
+          "Silent Environment"
+        ]
+      },
+      "description": "A small place, but with everything you need!",
+      "userId": 2
+    },
+    {
+      "name": "Compact Room, complete for Digital Nomades",
+      "avaliable": true,
+      "imageUrl": [
+        "https://imagens-revista.vivadecora.com.br/uploads/2021/06/Reforma-no-home-office-invista-em-uma-cadeira-no-m%C3%ADnimo-com-assento-regul%C3%A1vel.-Projeto-de-Espa%C3%A7o-do-Tra%C3%A7o-Arquitetura.jpg"
+      ],
+      "price": 143,
+      "location": {
+        "streetAddress": "Primeiro de abril, 22",
+        "complement": "corner building",
+        "city": "Porto Velho",
+        "country": "Brazil",
+        "state": "76801026",
+        "zipCode": 21120450
+      },
+      "category": "Apartment",
+      "kindOfPlace": "A whole room",
+      "acomodation": {
+        "rooms": 1,
+        "guests": 1,
+        "bathrooms": 1,
+        "beds": 1,
+        "highlights": [
+          "  Internet > 100mb/s",
+          "Air conditioning",
+          "Monitor Full HD",
+          "Silent Environment"
+        ]
+      },
+      "description": "Stay here, you'll have everything you need!",
+      "userId": 2
+    },
+    {
+      "name": "Elegant place, with silence and good internet",
+      "avaliable": true,
+      "imageUrl": [
+        "https://www.tuacasa.com.br/wp-content/uploads/2016/05/home-office-moderno-destaque-730x548.jpg"
+      ],
+      "price": 187,
+      "location": {
+        "streetAddress": "Luiz Pongellupe, 93",
+        "complement": "ap 508",
+        "city": "Bauru",
+        "country": "Brazil",
+        "state": "Sao Paulo",
+        "zipCode": 11160490
+      },
+      "category": "Apartment",
+      "kindOfPlace": "A whole room",
+      "acomodation": {
+        "rooms": 1,
+        "guests": 1,
+        "bathrooms": 1,
+        "beds": 1,
+        "highlights": [
+          "Internet > 100mb/s",
+          "Ergonomic Desk Chair",
+          "Ergonomic Setup",
+          "Air conditioning",
+          "Monitor Full HD",
+          "Silent Environment",
+          "Smart Place"
+        ]
+      },
+      "description": "Greate room, greate bed and greate place. We are greate!",
+      "userId": 2
+    },
+    {
+      "name": "Apartment with custom closets",
+      "avaliable": true,
+      "imageUrl": [
+        "https://blog.easydeco.com.br/wp-content/uploads/2020/08/1593188084875-Escritorio_R01.jpg"
+      ],
+      "price": 287,
+      "specialOffer": {
+        "status": true,
+        "price": 225,
+        "date": "15.07 - 14.08"
+      },
+      "location": {
+        "streetAddress": "Avenida Bias Fortes, 99",
+        "complement": "ap 308",
+        "city": "Florianopolis",
+        "country": "Brazil",
+        "state": "Santa Catarina",
+        "zipCode": 88160490
+      },
+      "category": "Apartment",
+      "kindOfPlace": "A whole place",
+      "acomodation": {
+        "rooms": 1,
+        "guests": 1,
+        "bathrooms": 1,
+        "beds": 1,
+        "highlights": ["Silent Environment", "Dryer", "Kitchen"]
+      },
+      "description": "Our workplace is great, visit us!!",
+      "userId": 2
+    },
+    {
+      "name": "Homme Office in Salvador-BA",
+      "avaliable": true,
+      "imageUrl": [
+        "https://www.moveisrimo.com.br/app/uploads/2020/08/home-1.jpg"
+      ],
+      "price": 209,
+      "location": {
+        "streetAddress": "Rodrigo Argollo, 507 ",
+        "complement": "",
+        "city": "Salvador",
+        "country": "Brazil",
+        "state": "Bahia",
+        "zipCode": 41940220
+      },
+      "category": "Apartment",
+      "kindOfPlace": "A whole place",
+      "acomodation": {
+        "rooms": 1,
+        "guests": 1,
+        "bathrooms": 1,
+        "beds": 1,
+        "highlights": [
+          "Ergonomic Desk Chair",
+          "Ergonomic Setup",
+          "Air conditioning",
+          "Monitor Full HD",
+          "Silent Environment",
+          "Dryer",
+          "Kitchen"
+        ]
+      },
+      "description": "Want to work and then go to the beach? So we're perfect for you!",
+      "userId": 2
+    },
+    {
+      "name": "Room to rent",
+      "avaliable": true,
+      "imageUrl": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/71/BluShark_Home_Office-Graham.jpg"
+      ],
+      "price": 86,
+      "location": {
+        "streetAddress": "Lázaro Ramos da Silva, 152 ",
+        "complement": "",
+        "city": "Salvador",
+        "country": "Brazil",
+        "state": "Bahia",
+        "zipCode": 41840530
+      },
+      "category": "House",
+      "kindOfPlace": "A whole room",
+      "acomodation": {
+        "rooms": 3,
+        "guests": 3,
+        "bathrooms": 2,
+        "beds": 3,
+        "highlights": ["Dryer", "Kitchen"]
+      },
+      "description": "A cozy home with rooms for business travelers",
+      "userId": 2
+    },
+    {
+      "name": "Winter rustic home office",
+      "avaliable": true,
+      "imageUrl": [
+        "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2022/06/12/home-office-pode-ser-um-tiro-no-pe-soknqnso5yk9.jpg"
+      ],
+      "price": 156,
+      "location": {
+        "streetAddress": "Estrada Municipal Morro alto, 152",
+        "complement": "",
+        "city": "Guarapuava",
+        "country": "Brazil",
+        "state": "Paraná",
+        "zipCode": 85000000
+      },
+      "category": "House",
+      "kindOfPlace": "A whole room",
+      "acomodation": {
+        "rooms": 3,
+        "guests": 3,
+        "bathrooms": 3,
+        "beds": 3,
+        "highlights": [
+          "Internet > 100mb/s",
+          "Monitor Full HD",
+          "Silent Environment",
+          "Dryer",
+          "Kitchen",
+          "Smart Place"
+        ]
+      },
+      "description": "Special place for cold lovers",
+      "userId": 2
+    },
+    {
+      "name": "Room to Work Remotely",
+      "avaliable": true,
+      "imageUrl": [
+        "https://tarkett.com.br/blog/wp-content/uploads/2020/09/dicas-decorar-home-office-bancada-de-trabalho-vinilico-amadeirado.jpg"
+      ],
+      "price": 143,
+      "location": {
+        "streetAddress": "Travessa Afonso Pena, 28",
+        "complement": "Hotel Gran Villa",
+        "city": "Guarapuava",
+        "country": "Brazil",
+        "state": "Paraná",
+        "zipCode": 96200110
+      },
+      "category": "House",
+      "kindOfPlace": "A whole room",
+      "acomodation": {
+        "rooms": 1,
+        "guests": 2,
+        "bathrooms": 1,
+        "beds": 1,
+        "highlights": [
+          "Internet > 100mb/s",
+          "Ergonomic Desk Chair",
+          "Ergonomic Setup",
+          "Monitor Full HD",
+          "Silent Environment",
+          "Coffee Machine",
+          "Playroom"
+        ]
+      },
+      "description": "Our Hotel has internet, coffee machine and fully equipped games room",
+      "userId": 2
+    },
+    {
+      "name": "Room to Work Remotely",
+      "avaliable": true,
+      "imageUrl": [
+        "https://www.historiasdecasa.com.br/wp-content/uploads/2021/12/13-decoracao-antes-e-depois-apartamento-escritorio-home-office-pintura-livros-bruna-suvinil-historias-de-casa-2021.jpg"
+      ],
+      "price": 201,
+      "location": {
+        "streetAddress": "Estrada Caiçara, 124",
+        "complement": "Hotel Gran Villa",
+        "city": "Cruz",
+        "country": "Brazil",
+        "state": "Ceará",
+        "zipCode": 62595000
+      },
+      "category": "Inn",
+      "kindOfPlace": "A whole room",
+      "acomodation": {
+        "rooms": 1,
+        "guests": 2,
+        "bathrooms": 1,
+        "beds": 1,
+        "highlights": [
+          "Air conditioning",
+          "Silent Environment",
+          "Dryer",
+          "Kitchen"
+        ]
+      },
+      "description": "Hostel equipped with internet, air conditioning and the best: close to the best beach in Jeri!",
+      "userId": 2
+    },
+    {
+      "name": "Room in Itaúnas",
+      "avaliable": true,
+      "imageUrl": [
+        "https://selfhotelcdn.nyc3.cdn.digitaloceanspaces.com/cloud/edge/24/photo_web_57742.webp"
+      ],
+      "price": 162,
+      "specialOffer": {
+        "status": true,
+        "price": 145,
+        "date": "15.07 - 30.08"
+      },
+      "location": {
+        "streetAddress": "Paulino de Souza Guanandi, 96",
+        "complement": "Hotel Gran Villa",
+        "city": "Itaúnas",
+        "country": "Brazil",
+        "state": "Espírito Santo",
+        "zipCode": 29960000
+      },
+      "category": "Inn",
+      "kindOfPlace": "A whole room",
+      "acomodation": {
+        "rooms": 1,
+        "guests": 1,
+        "bathrooms": 1,
+        "beds": 1,
+        "highlights": ["Silent Environment"]
+      },
+      "description": "Is working remotely in the city of forró your dream? Then we are perfect for you!",
+      "userId": 2
     }
   ],
   "bookings": [
